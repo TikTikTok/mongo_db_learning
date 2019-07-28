@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 mongoose.Promise = global.Promise;
-// Connect to mongodb
+// Connect to mongodb code
 
 //mongoose.connect('mongodb://localhost/test_mongodb');
 mongoose.connect("mongodb://localhost:27017/test_mongodb", { useNewUrlParser: true });
